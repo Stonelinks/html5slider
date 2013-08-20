@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-(function() {
+define([], function() {
 
 // test for native support
 var test = document.createElement('input');
@@ -291,4 +291,4 @@ function style(element, styles) {
     element.style.setProperty(prop, styles[prop], 'important');
 }
 
-})();
+});
